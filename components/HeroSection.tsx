@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Download, Star } from 'lucide-react';
+import { Download, Star, User } from 'lucide-react';
 import dynamic from 'next/dynamic';
 
 const PhoneModel = dynamic(() => import('./PhoneModel'), { ssr: false });
@@ -17,8 +17,9 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="relative py-20 px-4 overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-sky-100/50 via-transparent to-blue-100/30 pointer-events-none" />
+    <section className="relative py-20 px-4 overflow-hidden bg-[url('/mobilebgimg.jpg')] sm:bg-[url('/backimg.jpg')] bg-cover bg-center">
+      <div className="absolute inset-0 bg-gradient-to-br from-sky-100/40 via-transparent to-blue-100/30 pointer-events-none" />
+      <div className="absolute inset-0 bg-black/40 pointer-events-none" />
 
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -44,21 +45,33 @@ export default function HeroSection() {
               transition={{ delay: 0.3, duration: 0.6 }}
               className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight"
             >
-              <span className="bg-gradient-to-r from-sky-600 via-blue-600 to-blue-700 bg-clip-text text-transparent">
+              <span className="text-[#AB2D03]">
                 Shree Games
               </span>
               <br />
-              <span className="text-gray-800">Your Ultimate Gaming Hub</span>
+              <span className="text-white text-3xl sm:text-4xl lg:text-5xl">विश्वास का धंदा विश्वास के साथ</span>
             </motion.h1>
 
             <motion.p
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.4, duration: 0.6 }}
-              className="text-xl text-gray-600 leading-relaxed max-w-xl"
+              className="text-xl text-white/90 leading-relaxed max-w-xl"
             >
-              Experience the most thrilling collection of games all in one place. Download now and start your gaming adventure!
+              India's No 1 Matka App
+              <br />
+              आज ही download करे
             </motion.p>
+
+            <motion.div
+              initial={{ y: 20, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ delay: 0.45, duration: 0.6 }}
+              className="flex gap-6 text-lg"
+            >
+              <span className="font-extrabold text-[#AB2D03]">Automatic DEPOSIT</span>
+              <span className="font-extrabold text-[#AB2D03]">Automatic withdrawal</span>
+            </motion.div>
 
             <motion.div
               initial={{ y: 20, opacity: 0 }}
@@ -84,16 +97,22 @@ export default function HeroSection() {
                 className="flex items-center justify-center gap-3 px-8 py-4 bg-white rounded-2xl shadow-lg border border-sky-100"
               >
                 <div className="flex -space-x-2">
-                  {[1, 2, 3].map((i) => (
-                    <div
-                      key={i}
-                      className="w-10 h-10 rounded-full bg-gradient-to-br from-sky-300 to-blue-500 border-2 border-white"
-                    />
-                  ))}
+                  <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-white">
+  <img src="/images/user1.avif" className="w-full h-full object-cover" />
+</div>
+
+<div className="w-10 h-10 rounded-full overflow-hidden border-2 border-white">
+  <img src="/images/user2.avif" className="w-full h-full object-cover" />
+</div>
+
+<div className="w-10 h-10 rounded-full overflow-hidden border-2 border-white">
+  <img src="/images/user3.avif" className="w-full h-full object-cover" />
+</div>
+
                 </div>
                 <div className="text-left">
-                  <div className="font-bold text-gray-800">4K+</div>
-                  <div className="text-sm text-gray-500">Active Players</div>
+                  <div className="font-bold text-gray-800">50K+</div>
+                  <div className="text-sm text-gray-500">Downloads</div>
                 </div>
               </motion.div>
             </motion.div>

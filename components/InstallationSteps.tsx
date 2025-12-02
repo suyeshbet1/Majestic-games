@@ -14,8 +14,8 @@ const steps = [
   {
     number: 2,
     icon: Shield,
-    title: 'Allow Installation From "Unknown Sources"',
-    description: 'Enable installation from unknown sources and click back',
+    title: 'Enable unknown sources',
+    description: 'Enable unknown sources and go back',
     color: 'from-blue-400 to-sky-500',
   },
   {
