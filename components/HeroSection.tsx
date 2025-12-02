@@ -69,8 +69,8 @@ export default function HeroSection() {
               transition={{ delay: 0.45, duration: 0.6 }}
               className="flex gap-6 text-lg"
             >
-              <span className="font-extrabold text-[#AB2D03]">Automatic DEPOSIT</span>
-              <span className="font-extrabold text-[#AB2D03]">Automatic WITHDRAWAL</span>
+              <span className="font-extrabold text-white/90">Automatic DEPOSIT</span>
+              <span className="font-extrabold text-white/90">Automatic WITHDRAWAL</span>
             </motion.div>
 
             <motion.div
