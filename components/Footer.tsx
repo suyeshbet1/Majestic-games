@@ -24,8 +24,8 @@ export default function Footer() {
               <div className="w-10 h-10 bg-gradient-to-br from-sky-400 to-blue-600 rounded-xl flex items-center justify-center">
                 <span className="text-white text-xl font-bold">S</span>
               </div>
-              <span className="text-xl font-bold bg-gradient-to-r from-sky-600 to-blue-700 bg-clip-text text-transparent">
-                Shree Games
+                <span className="text-xl font-bold bg-gradient-to-r from-sky-600 to-blue-700 bg-clip-text text-transparent">
+                Majestic Games
               </span>
             </div>
             <p className="text-gray-600">
@@ -89,7 +89,7 @@ export default function Footer() {
             Made with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> for gamers
           </p>
           <p className="text-sm text-gray-500 mt-2">
-            © 2025 Shree Games. All rights reserved.
+            © 2025 Majestic Games. All rights reserved.
           </p>
         </motion.div>
       </div>
