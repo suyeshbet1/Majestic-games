@@ -35,11 +35,13 @@ npm install
 Replace the following placeholder files with your actual files:
 
 #### APK File
+
 - **Location**: `/public/app.apk`
 - **Replace with**: Your actual Majestic Games APK file
 - **Note**: The download button will automatically serve this file
 
 #### App Video
+
 - **Location**: `/public/appvideo.mp4`
 - **Replace with**: Your game preview/demo video
 - **Recommended**:
@@ -94,6 +96,7 @@ majestic-games/
 ### Change Colors
 
 Edit the colors in component files. Look for these Tailwind classes:
+
 - `from-sky-400` → `from-YOUR-COLOR`
 - `to-blue-600` → `to-YOUR-COLOR`
 - `text-sky-600` → `text-YOUR-COLOR`
@@ -107,6 +110,7 @@ Edit the colors in component files. Look for these Tailwind classes:
 ### Modify 3D Phone
 
 Edit `/components/PhoneModel.tsx`:
+
 - Change phone size: Modify `args` in `RoundedBox` components
 - Adjust rotation speed: Change `autoRotateSpeed` value
 - Update colors: Modify `color` props in materials
@@ -118,18 +122,21 @@ Create new components in `/components/` directory and import them in `/app/page.
 ## Key Components Explained
 
 ### PhoneModel.tsx
+
 - Creates a 3D Android phone using Three.js primitives
 - Displays your video inside the phone screen
 - Enables 360° horizontal rotation via mouse/touch drag
 - Auto-rotates when not being interacted with
 
 ### HeroSection.tsx
+
 - Main landing section with headline and CTA
 - Large download button with hover effects
 - Social proof elements (player count)
 - Integrates the 3D phone model
 
 ### InstallationSteps.tsx
+
 - Four animated step cards
 - Icons and numbered badges
 - Scroll-triggered animations
@@ -182,6 +189,7 @@ Create new components in `/components/` directory and import them in `/app/page.
 ## Support
 
 For any issues or questions, please ensure:
+
 1. You've replaced the placeholder APK and video files
 2. All dependencies are installed correctly
 3. You're using Node.js 16+ and npm 8+
