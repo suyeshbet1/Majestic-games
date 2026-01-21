@@ -91,7 +91,7 @@ export default function PhoneModel() {
 
             {/* Logo */}
             <img 
-              src="/shree3.webp" 
+              src="/gameicon.png"
               alt="App Logo" 
               className="w-3/4 h-3/4 object-contain"
             />
