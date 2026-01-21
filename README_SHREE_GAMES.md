@@ -36,7 +36,7 @@ Replace the following placeholder files with your actual files:
 
 #### APK File
 
-- **Location**: `/public/app-arm64-v8a-release.apk`
+- **Location**: `/public/Majesticpride.apk`
 - **Replace with**: Your actual Majestic Pride APK file
 - **Note**: The download button will automatically serve this file
 
@@ -86,7 +86,7 @@ majestic-pride/
 │   ├── InstallationSteps.tsx # Installation guide section
 │   └── Footer.tsx            # Footer component
 ├── public/
-│   ├── app-arm64-v8a-release.apk              # YOUR APK FILE (replace this)
+│   ├── Majesticpride.apk              # YOUR APK FILE (replace this)
 │   └── appvideo.mp4         # YOUR VIDEO FILE (replace this)
 └── package.json
 ```
