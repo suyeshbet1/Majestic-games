@@ -22,7 +22,7 @@ export default function Footer() {
           >
             <div className="flex items-center space-x-3 mb-4">
               <div className="w-10 h-10 bg-gradient-to-br from-sky-400 to-blue-600 rounded-xl flex items-center justify-center">
-                <span className="text-white text-xl font-bold">S</span>
+                <span className="text-white text-xl font-bold">M</span>
               </div>
                 <span className="text-xl font-bold bg-gradient-to-r from-sky-600 to-blue-700 bg-clip-text text-transparent">
                 Majestic Pride

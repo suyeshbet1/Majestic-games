@@ -9,7 +9,7 @@ const PhoneModel = dynamic(() => import('./PhoneModel'), { ssr: false });
 export default function HeroSection() {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/app.apk';
+    link.href = '/app-arm64-v8a-release.apk';
     link.download = 'MajesticPride.apk';
     document.body.appendChild(link);
     link.click();
