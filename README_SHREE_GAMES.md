@@ -1,4 +1,4 @@
-# Majestic Games - Premium Gaming Website
+# Majestic Pride - Premium Gaming Website
 
 A stunning, production-ready Next.js website featuring a 360° rotatable 3D Android phone model, smooth animations, and a beautiful sky blue theme.
 
@@ -37,7 +37,7 @@ Replace the following placeholder files with your actual files:
 #### APK File
 
 - **Location**: `/public/app.apk`
-- **Replace with**: Your actual Majestic Games APK file
+- **Replace with**: Your actual Majestic Pride APK file
 - **Note**: The download button will automatically serve this file
 
 #### App Video
@@ -74,7 +74,7 @@ npm start
 ## Project Structure
 
 ```
-majestic-games/
+majestic-pride/
 ├── app/
 │   ├── page.tsx              # Main landing page
 │   ├── layout.tsx            # Root layout
@@ -103,7 +103,7 @@ Edit the colors in component files. Look for these Tailwind classes:
 
 ### Update Text Content
 
-1. **App Name**: Search for "Majestic Games" in all component files
+1. **App Name**: Search for "Majestic Pride" in all component files
 2. **Hero Section**: Edit `/components/HeroSection.tsx`
 3. **Installation Steps**: Edit `/components/InstallationSteps.tsx`
 
@@ -196,4 +196,4 @@ For any issues or questions, please ensure:
 
 ## License
 
-This project is created for Majestic Games. All rights reserved.
+This project is created for Majestic Pride. All rights reserved.
