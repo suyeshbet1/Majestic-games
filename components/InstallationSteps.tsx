@@ -64,7 +64,7 @@ export default function InstallationSteps() {
               HOW TO INSTALL APP
             </span>
           </h2>
-          <p className="text-xl text-gray-600 font-semibold">Majestic Pride</p>
+          <p className="text-xl text-gray-600 font-semibold">Majestic games</p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-6 lg:gap-8">

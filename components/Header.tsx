@@ -29,10 +29,10 @@ export default function Header() {
             className="flex items-center space-x-3"
           >
             <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center shadow-lg overflow-hidden border border-sky-100">
-              <img src="/gameicon.png" alt="Majestic Pride Logo" className="w-full h-full object-contain p-1" />
+              <img src="/gameicon.png" alt="Majestic games Logo" className="w-full h-full object-contain p-1" />
             </div>
             <span className="text-2xl font-bold text-[#AB2D03]">
-              Majestic Pride
+              Majestic games
             </span>
           </motion.div>
 

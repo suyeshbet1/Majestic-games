@@ -25,7 +25,7 @@ export default function Footer() {
                 <span className="text-white text-xl font-bold">M</span>
               </div>
                 <span className="text-xl font-bold bg-gradient-to-r from-sky-600 to-blue-700 bg-clip-text text-transparent">
-                Majestic Pride
+                Majestic games
               </span>
             </div>
             <p className="text-gray-600">
@@ -89,7 +89,7 @@ export default function Footer() {
             Made with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> for gamers
           </p>
           <p className="text-sm text-gray-500 mt-2">
-            © 2025 Majestic Pride. All rights reserved.
+            © 2025 Majestic games. All rights reserved.
           </p>
         </motion.div>
       </div>

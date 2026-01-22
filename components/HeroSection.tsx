@@ -46,7 +46,7 @@ export default function HeroSection() {
               className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight"
             >
                 <span className="text-[#AB2D03]">
-                Majestic Pride
+                Majestic games
               </span>
               <br />
               <span className="text-white text-3xl sm:text-4xl lg:text-5xl">विश्वास का धंदा विश्वास के साथ</span>
@@ -88,7 +88,7 @@ export default function HeroSection() {
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-sky-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <span className="relative flex items-center justify-center gap-3">
                   <Download className="w-6 h-6" />
-                  Download Majestic Pride APK
+                  Download Majestic games APK
                 </span>
               </motion.button>
 
