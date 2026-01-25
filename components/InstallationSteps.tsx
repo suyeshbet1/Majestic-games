@@ -7,7 +7,7 @@ const steps = [
   {
     number: 1,
     icon: Settings,
-    title: 'Click On Settings Icon',
+    title: 'Click On Settings',
     description: 'Open your device settings to allow app installation',
     color: 'from-sky-400 to-blue-500',
   },
